@@ -7,7 +7,7 @@ export const CURA_CONTACT = {
   email: "curaheritagefoods@gmail.com",
   instagramUrl: "https://www.instagram.com/cura_heritage_foods",
   instagramHandle: "@cura_heritage_foods",
-  location: "Ikeja, Lagos, Nigeria",
+  location: "Ikorodu, Lagos, Nigeria",
 };
 
 export function buildWhatsAppOrderUrl(items, subtotal) {
