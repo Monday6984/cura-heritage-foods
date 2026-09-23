@@ -112,7 +112,7 @@ export const PRODUCTS = [
     price: 10000,
     size: '200g Premium Jar',
     image: `${IMG}soup-supreme.jpg`,
-    imagePosition: 'center 90%',
+    imagePosition: '85% center',
     tags: ['No MSG', 'Real Seafood'],
     details:
       'Ditch the chemical cubes and return to the source of true flavor. Tosaf Soup Supreme is a premium, granular seafood concentrate designed for the health-conscious home. We have replaced MSG and artificial fillers with the deep, smoky umami of the Atlantic and the Earth.',
@@ -190,6 +190,44 @@ export const PRODUCTS = [
       { text: 'Nationwide delivery from Lagos.' },
     ],
     usage: { title: 'Ideal for', text: 'Growing Kids & Active Adults\nNursing Mothers\nRecovery & The Elderly' },
+  },
+  {
+    id: 'sweet-pap-cereal-1kg',
+    category: 'Breakfast',
+    eyebrow: 'Ready-to-Prepare Pap',
+    title: 'CURA Sweet Natural Pap Cereal (1kg)',
+    desc: 'Instant sweet natural pap cereal made from a carefully selected blend of finely blended sorghum, maize, ginger and more.',
+    price: 10000,
+    size: '1kg',
+    image: `${IMG}sweet-natural-pap-cereal-1kg.jpg`,
+    tags: ['Ready to Prepare', 'No Soaking Required'],
+    details:
+      'CURA Sweet Natural Pap Cereal is an instant sweet natural pap cereal made from the rich goodness of finely blended sorghum, maize, ginger and more.\n\nNaturally crafted to give you that smooth nourishing taste without the stress of soaking or serving.\n\nThe ready-to-prepare pap is perfect for quick, healthy meals at any time of the day.',
+    highlights: [
+      { text: 'Made from finely blended sorghum, maize, ginger and more.' },
+      { text: 'Smooth and nourishing taste.' },
+      { text: 'Ready to prepare, no soaking or serving stress.' },
+      { text: 'Convenient for quick meals, any time of day.' },
+    ],
+  },
+  {
+    id: 'sweet-pap-cereal-400g',
+    category: 'Breakfast',
+    eyebrow: 'Ready-to-Prepare Pap',
+    title: 'CURA Sweet Natural Pap Cereal (400g)',
+    desc: 'Instant sweet natural pap cereal made from a carefully selected blend of finely blended sorghum, maize, ginger and more.',
+    price: 5000,
+    size: '400g',
+    image: `${IMG}sweet-natural-pap-cereal-400g.jpg`,
+    tags: ['Ready to Prepare', 'No Soaking Required'],
+    details:
+      'CURA Sweet Natural Pap Cereal is an instant sweet natural pap cereal made from the rich goodness of finely blended sorghum, maize, ginger and more.\n\nNaturally crafted to give you that smooth nourishing taste without the stress of soaking or serving.\n\nThe ready-to-prepare pap is perfect for quick, healthy meals at any time of the day.',
+    highlights: [
+      { text: 'Made from finely blended sorghum, maize, ginger and more.' },
+      { text: 'Smooth and nourishing taste.' },
+      { text: 'Ready to prepare, no soaking or serving stress.' },
+      { text: 'Convenient for quick meals, any time of day.' },
+    ],
   },
   {
     id: 'pure-honey',
